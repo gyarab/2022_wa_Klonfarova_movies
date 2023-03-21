@@ -2,7 +2,9 @@ from django.contrib import admin
 
 # Register your models here.
 from .models import Movie
-from .models import Director
 
-admin.site.register(Movie)
-admin.site.register(Director)
+class MovieAdmin(admin.ModelAdmin):
+    list_display = ['id','name','year']
+    list_display_links = ['name']
+
+admin.site.register(Movie, MovieAdmin)
