@@ -1,30 +1,96 @@
 - model: films.movie
   pk: 1
   fields:
-    name: Top Gun   
-    year: 2022
-    description: Tom Cruise again...
+    name: Samotáři
+    year: 2000
+    description: Sedm mladých lidí ve věku od 23 do 33 let se na konci devadesátých
+      let ve velkém městě pokouší praktikovat cosi, čemu se dříve říkalo milostný
+      vztah. A tak na sebe milostně narážejí a nechávají se unášet napříč dlouhodobějšími
+      či krátkodobějšími vztahy, které je dovedou zpět do samoty. Robert pracuje v
+      cestovní kanceláři a rád rozplétá a splétá osudy lidí. Napomůže rozchodu Hanky
+      a Petra, který se pokouší pochopit život skrze nahrávky „opravdového života“
+      pouštěné do éteru. Zatímco je Hanka pronásledována Ondřejem, do té doby uznávaným
+      lékařem a otcem rodiny, seznamuje se s Jakubem, jehož pozitivnímu pohledu na
+      svět pomáhá pravidelné užívání marihuany. Na druhé straně to ale způsobuje zhoršování
+      jeho krátkodobé paměti, takže se v jejich vztahu objevují problémy. Zklamaná
+      Hanka hledá pochopení u rodičů, ale doma najde jen dvacet Japonců sledujících
+      „normální rodinku při normální večeři“.
 - model: films.movie
   pk: 2
   fields:
-    name: Shrek
-    year: 2001
-    description: Green dude
+    name: Pelíšky
+    year: 1999
+    description: Pelíšky jsou česká filmová komedie režiséra Jana Hřebejka z roku
+      1999, dějově zasazená do Prahy na konci 60. let 20. století.
 - model: films.movie
   pk: 3
   fields:
-    name: Pulp Fiction
-    year: 1994
-    description: ''
+    name: V hlavě
+    year: 2015
+    description: V hlavě je americký animovaný film studia Pixar Animation Studios
+      z roku 2015. Film vypráví příběh mladé dívky Riley.
 - model: films.movie
   pk: 4
   fields:
-    name: Fight Club
-    year: 1999
-    description: ''
+    name: Táta v sukni
+    year: 1993
+    description: Táta v sukni je neotřelá komedie, u které se zasmějete z absurdit
 - model: films.movie
-  pk: 1
+  pk: 5
   fields:
-    name: Samotáři 
-    year: 2000
-    description: ''
+    name: Ženy v běhu
+    year: 2019
+    description: Ženy v běhu je česká filmová komedie z roku 2019 režiséra Martina
+      Horského. Horský k filmu napsal i scénář a film je pro něj zároveň jeho režijním
+      debutem. V hlavních rolích se objevili Zlata Adamovská, Tereza Kostková, Veronika
+      Khek Kubařová, Jenovéfa Boková, Ondřej Vetchý, Vladimír Polívka a Martin Hofmann.
+      Film měl premiéru v kinech 31. ledna 2019. Televizní premiéra proběhla 5. září
+      2020 na televizi Prima.
+- model: films.movie
+  pk: 6
+  fields:
+    name: Tajemství staré bambitky
+    year: 2011
+    description: Tajemství staré bambitky je česká televizní pohádka Iva Macharáčka
+      z roku 2011. Hlavní roli prince Jakuba hraje Tomáš Klus, jenž také pro pohádku
+      nazpíval několik písniček, které jsou součástí scénáře, a nesložil je tedy on.
+- model: films.movie
+  pk: 7
+  fields:
+    name: Chata na prodej
+    year: 2018
+    description: Chata na prodej je česká filmová komedie režiséra Tomáše Pavlíčka
+      z roku 2018. Pojednává o rodině, která přemýšlí, jestli prodat či neprodat chatu,
+      když na ni nikdo nejezdí. Před rozhodnutím o prodeji je na chatě uspořádána
+      rodinná sešlost
+- model: films.movie
+  pk: 8
+  fields:
+    name: Jak dostat tatínka do polepšovny
+    year: 1978
+    description: Jak dostat tatínka do polepšovny je česká rodinná komedie. Byla natočena
+      roku 1978 jako televizní film, který režírovala a jehož scénář napsala Marie
+      Poledňáková. Hlavní role vytvořili Jana Preissová, Tomáš Holý a František Němec.
+      Jde o volné pokračování televizní komedie Jak vytrhnout velrybě stoličku.
+- model: films.movie
+  pk: 9
+  fields:
+    name: Harry Potter a kámen mudrců
+    year: 2001
+    description: Jedenáctiletý Harry Potter žije v domě č. 4 v Zobí ulici v Kvikálkově
+      u své tety a strýce – Vernona Dursleyho a Petunie Dursleyové - není to pro něj
+      však procházka růžovým sadem… Právě naopak, jejich synáček Dudley dělá Harrymu
+      ze života pořádné peklo. Ale jeho život neznepříjemňují pouze předpojatí příbuzní,
+      ale také Harryho pomalu se projevující kouzelnické schopnosti, mezi které patří
+      třeba to že umí mluvit s hady, což se ukázalo na jedné Dudleyho narozeninové
+      oslavě v zoo.
+- model: films.movie
+  pk: 10
+  fields:
+    name: S tebou mě baví svět
+    year: 1982
+    description: Komedie o rodinné dovolené v malebné beskydské chalupě, kde se tři
+      přátelé starají o šest malých dětí. Muži jsou přesvědčeni, že právě jejich výchovné
+      metody jsou mnohem lepší než pedagogické působení matek. Když ale manželky přijedou
+      „na kontrolu“, dojde v rodinách na čas k vážným sporům... (
+        
