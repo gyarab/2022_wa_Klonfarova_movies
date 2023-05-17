@@ -1,4 +1,4 @@
-# 2022_wa_Klonfarova_movies
+# Webova aplikace vytvorena v ramci predmetu webovych aplikacich
 
 
 ## Spustit enviroment
