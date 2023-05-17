@@ -1,25 +1,25 @@
-# Webova aplikace vytvorena v ramci predmetu webovych aplikacich
+# Webová aplikace vytvořena v rámci předmětu webových aplikací
 
 
-## Spustit enviroment
+## Spusť enviroment
 
 ```git bash
 source ./venv/Scripts/activate
 ```
 
-## Nainstalovat polozky y requirements
+## Nainstaluj položky y requirements
 
 ```Bash
 pip install -r requirements.txt
 ```
 
-## Spustit server
+## Spusť server
 
 ```Bash
 python manage.py runserver
 ```
 
-## Vytvor fixtures
+## Vytvoř fixtures
 
 ```Bash
 python manage.py dumpdata <app_model_name> --format yaml > fixtures/<name>.yaml
