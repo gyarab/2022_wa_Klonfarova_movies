@@ -1,0 +1,32 @@
+- model: films.genre
+  pk: 1
+  fields:
+    name: Comedy
+- model: films.genre
+  pk: 2
+  fields:
+    name: Horror
+- model: films.genre
+  pk: 3
+  fields:
+    name: Fantazy
+- model: films.genre
+  pk: 4
+  fields:
+    name: Scifi
+- model: films.genre
+  pk: 5
+  fields:
+    name: Drama
+- model: films.genre
+  pk: 6
+  fields:
+    name: Romance
+- model: films.genre
+  pk: 7
+  fields:
+    name: Soap opera
+- model: films.genre
+  pk: 8
+  fields: For children
+    name: Horror

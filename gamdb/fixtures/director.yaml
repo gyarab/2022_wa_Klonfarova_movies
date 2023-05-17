@@ -1,0 +1,30 @@
+- model: films.director
+  pk: 1
+  fields:
+    name: Joanne Rowling
+    birth_year: 1965
+- model: films.director
+  pk: 2
+  fields:
+    name: Quentin Tarantino
+    birth_year: null
+- model: films.director
+  pk: 3
+  fields:
+    name: Steven Spielberg
+    birth_year: null
+- model: films.director
+  pk: 4
+  fields:
+    name: Christopher Nolan
+    birth_year: 1965
+- model: films.director
+  pk: 5
+  fields:
+    name: Tim Burton
+    birth_year: null
+- model: films.director
+  pk: 6
+  fields:
+    name: James Cameron
+    birth_year: null
