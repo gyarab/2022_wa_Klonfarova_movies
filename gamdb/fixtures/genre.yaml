@@ -28,5 +28,5 @@
     name: Soap opera
 - model: films.genre
   pk: 8
-  fields: For children
+  fields:
     name: Horror
