@@ -2,7 +2,10 @@
   pk: 1
   fields:
     name: Samotáři
+    slug: '1'
+    image_url: https://www.lifee.cz/wp-content/uploads/25167/samot__ii-659x370.jpg
     year: 2000
+    avg_rating: null
     description: Sedm mladých lidí ve věku od 23 do 33 let se na konci devadesátých
       let ve velkém městě pokouší praktikovat cosi, čemu se dříve říkalo milostný
       vztah. A tak na sebe milostně narážejí a nechávají se unášet napříč dlouhodobějšími
@@ -15,68 +18,124 @@
       jeho krátkodobé paměti, takže se v jejich vztahu objevují problémy. Zklamaná
       Hanka hledá pochopení u rodičů, ale doma najde jen dvacet Japonců sledujících
       „normální rodinku při normální večeři“.
+    director: 7
+    genres:
+    - 1
+    - 6
 - model: films.movie
   pk: 2
   fields:
     name: Pelíšky
+    slug: '1'
+    image_url: https://gal.filmozrouti.cz/2020/03/20200324212637000000_2_9151.png
     year: 1999
+    avg_rating: null
     description: Pelíšky jsou česká filmová komedie režiséra Jana Hřebejka z roku
       1999, dějově zasazená do Prahy na konci 60. let 20. století.
+    director: null
+    genres:
+    - 1
+    - 6
 - model: films.movie
   pk: 3
   fields:
     name: V hlavě
+    slug: '1'
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7GQJyP4jc02xalRAThwPpk4T8fZbZiJO7w&usqp=CAU
     year: 2015
+    avg_rating: null
     description: V hlavě je americký animovaný film studia Pixar Animation Studios
       z roku 2015. Film vypráví příběh mladé dívky Riley.
+    director: null
+    genres:
+    - 1
+    - 5
+    - 8
 - model: films.movie
   pk: 4
   fields:
     name: Táta v sukni
+    slug: '1'
+    image_url: https://c3.primacdn.cz/sites/default/files/styles/landscape_extra_large/public/8/f9/5605242-mrs-doubtfire-944.jpg?itok=cAy9fseX&c=def_cloudinary
     year: 1993
-    description: Táta v sukni je neotřelá komedie, u které se zasmějete z absurdit
+    avg_rating: null
+    description: Táta v sukni je neotřelá komedie, u které se zasmějete z absurdit.
+    director: null
+    genres:
+    - 1
+    - 8
 - model: films.movie
   pk: 5
   fields:
     name: Ženy v běhu
+    slug: '1'
+    image_url: https://image.pmgstatic.com/cache/resized/w936/files/images/film/photos/162/952/162952226_d10831.jpg
     year: 2019
+    avg_rating: null
     description: Ženy v běhu je česká filmová komedie z roku 2019 režiséra Martina
       Horského. Horský k filmu napsal i scénář a film je pro něj zároveň jeho režijním
       debutem. V hlavních rolích se objevili Zlata Adamovská, Tereza Kostková, Veronika
       Khek Kubařová, Jenovéfa Boková, Ondřej Vetchý, Vladimír Polívka a Martin Hofmann.
       Film měl premiéru v kinech 31. ledna 2019. Televizní premiéra proběhla 5. září
       2020 na televizi Prima.
+    director: null
+    genres:
+    - 1
+    - 6
 - model: films.movie
   pk: 6
   fields:
     name: Tajemství staré bambitky
+    slug: '1'
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfEnXb2_BAxFGqCDFiD2gy7ZU-Ond9zdzbZA&usqp=CAU
     year: 2011
+    avg_rating: null
     description: Tajemství staré bambitky je česká televizní pohádka Iva Macharáčka
       z roku 2011. Hlavní roli prince Jakuba hraje Tomáš Klus, jenž také pro pohádku
       nazpíval několik písniček, které jsou součástí scénáře, a nesložil je tedy on.
+    director: null
+    genres:
+    - 6
+    - 8
 - model: films.movie
   pk: 7
   fields:
     name: Chata na prodej
+    slug: '1'
+    image_url: https://www.moviezone.cz/obr/YXJ0aWNsZU1haW4vMjIxODk4
     year: 2018
+    avg_rating: null
     description: Chata na prodej je česká filmová komedie režiséra Tomáše Pavlíčka
       z roku 2018. Pojednává o rodině, která přemýšlí, jestli prodat či neprodat chatu,
       když na ni nikdo nejezdí. Před rozhodnutím o prodeji je na chatě uspořádána
       rodinná sešlost
+    director: null
+    genres:
+    - 1
 - model: films.movie
   pk: 8
   fields:
     name: Jak dostat tatínka do polepšovny
+    slug: '1'
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqBlF3WLlfKpCSzr3gPw8LZJTVA1-dj5AzNA&usqp=CAU
     year: 1978
+    avg_rating: null
     description: Jak dostat tatínka do polepšovny je česká rodinná komedie. Byla natočena
       roku 1978 jako televizní film, který režírovala a jehož scénář napsala Marie
       Poledňáková. Hlavní role vytvořili Jana Preissová, Tomáš Holý a František Němec.
       Jde o volné pokračování televizní komedie Jak vytrhnout velrybě stoličku.
+    director: null
+    genres:
+    - 1
+    - 8
 - model: films.movie
   pk: 9
   fields:
     name: Harry Potter a kámen mudrců
+    slug: '1'
+    image_url: https://ct24.ceskatelevize.cz/sites/default/files/styles/crop_880x495/public/images/1640533-harry_potter_and_the_deathly_hallows_part_2.jpg?itok=HLJD6DF5
     year: 2001
+    avg_rating: null
     description: Jedenáctiletý Harry Potter žije v domě č. 4 v Zobí ulici v Kvikálkově
       u své tety a strýce – Vernona Dursleyho a Petunie Dursleyové - není to pro něj
       však procházka růžovým sadem… Právě naopak, jejich synáček Dudley dělá Harrymu
@@ -84,13 +143,135 @@
       ale také Harryho pomalu se projevující kouzelnické schopnosti, mezi které patří
       třeba to že umí mluvit s hady, což se ukázalo na jedné Dudleyho narozeninové
       oslavě v zoo.
+    director: null
+    genres:
+    - 3
+    - 5
+    - 8
 - model: films.movie
   pk: 10
   fields:
     name: S tebou mě baví svět
+    slug: '1'
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUHOMuumBMWuikIPrhT0-cpaBLUkLsX7MyoQ&usqp=CAU
     year: 1982
+    avg_rating: null
     description: Komedie o rodinné dovolené v malebné beskydské chalupě, kde se tři
       přátelé starají o šest malých dětí. Muži jsou přesvědčeni, že právě jejich výchovné
       metody jsou mnohem lepší než pedagogické působení matek. Když ale manželky přijedou
       „na kontrolu“, dojde v rodinách na čas k vážným sporům... (
-        
+    director: null
+    genres:
+    - 1
+- model: films.director
+  pk: 1
+  fields:
+    name: Joanne Rowling
+    slug: ''
+    birth_year: 1965
+- model: films.director
+  pk: 2
+  fields:
+    name: Quentin Tarantino
+    slug: ''
+    birth_year: null
+- model: films.director
+  pk: 3
+  fields:
+    name: Steven Spielberg
+    slug: ''
+    birth_year: null
+- model: films.director
+  pk: 4
+  fields:
+    name: Christopher Nolan
+    slug: ''
+    birth_year: 1965
+- model: films.director
+  pk: 5
+  fields:
+    name: Tim Burton
+    slug: ''
+    birth_year: null
+- model: films.director
+  pk: 6
+  fields:
+    name: James Cameron
+    slug: ''
+    birth_year: null
+- model: films.director
+  pk: 7
+  fields:
+    name: David Ondříček
+    slug: '1'
+    birth_year: null
+- model: films.actor
+  pk: 1
+  fields:
+    name: Daniel Radcliffe
+    birth_year: 1989
+    slug: '1'
+    photo_url: https://media.super.cz/images/top_foto1/0000000012490702/5sTkoZ1lfD_yQq0u08y-7A/5ed65831f352f71a70ff0100-309254.jpg?20200602154627&size=539
+    description: Daniel Jacob Radcliffe je britský filmový, divadelní a televizní
+      herec, známý především ztvárněním role Harryho Pottera v sérii stejnojmenných
+      filmů o mladém čarodějnickém učni anglické spisovatelky Joanny Rowlingové.
+- model: films.actor
+  pk: 2
+  fields:
+    name: Emma Watson
+    birth_year: 1990
+    slug: '1'
+    photo_url: https://image.pmgstatic.com/cache/resized/w663/files/images/film/video/preview/161/597/161597712_b63655.jpg
+    description: Emma strávila dětství v britském Oxfordu, kam se ve svých pěti letech
+      přestěhovala po rozvodu svých rodičů z Paříže. Když se v devíti letech dozvěděla,
+      že byla vybrána do hlavní ženské role ve fantasy sáze Harry Potter, neměla pravděpodobně
+      vůbec tušení, do jaké míry to změní její život a jaké dveře se před ní díky
+      tomu otevřou. První díl dorazil do kin v roce 2001. Následovalo v přibližně
+      dvouletých intervalech sedm dalších pokračování.
+- model: films.actor
+  pk: 3
+  fields:
+    name: Veronika Khek Kubařová
+    birth_year: 1987
+    slug: '1'
+    photo_url: https://www.mujrozhlas.cz/sites/default/files/styles/detail/public/rapi/bd4c3428b5e29f267d27a89d7c17a897.jpg?h=95cdf9cb&itok=tRQtOQBd
+    description: Filmovou hereckou kariéru začala v komedii Rafťáci (r. Karel Janák,
+      2006), objevila se v televizním filmu Stříbrná vůně mrazu a televizních pohádkách
+      100+1 princezna nebo Škola ve mlejně. V roce 2008 vytvořila roli princezny Rozmarýny
+      v pohádce Nejkrásnější hádanka (r. Zdeněk Troška). Úspěch znamenala role po
+      boku Ivana Trojana v televizním snímku Juraje Herze Dívka a kouzelník, za niž
+      získala cenu pro Televizní objev roku 2009. Absolventka pražské konzervatoře
+      je v současné době v angažmá v Městském divadle Mladá Boleslav, kde vytvořila
+      například titulní roli v slavném Shakespearově dramatu Romeo a Julie.
+- model: films.genre
+  pk: 1
+  fields:
+    name: Comedy
+- model: films.genre
+  pk: 2
+  fields:
+    name: Horror
+- model: films.genre
+  pk: 3
+  fields:
+    name: Fantazy
+- model: films.genre
+  pk: 4
+  fields:
+    name: Scifi
+- model: films.genre
+  pk: 5
+  fields:
+    name: Drama
+- model: films.genre
+  pk: 6
+  fields:
+    name: Romance
+- model: films.genre
+  pk: 7
+  fields:
+    name: Soap opera
+- model: films.genre
+  pk: 8
+  fields:
+    name: For children
