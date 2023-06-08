@@ -2,29 +2,41 @@
   pk: 1
   fields:
     name: Joanne Rowling
+    slug: ''
     birth_year: 1965
 - model: films.director
   pk: 2
   fields:
     name: Quentin Tarantino
+    slug: ''
     birth_year: null
 - model: films.director
   pk: 3
   fields:
     name: Steven Spielberg
+    slug: ''
     birth_year: null
 - model: films.director
   pk: 4
   fields:
     name: Christopher Nolan
+    slug: ''
     birth_year: 1965
 - model: films.director
   pk: 5
   fields:
     name: Tim Burton
+    slug: ''
     birth_year: null
 - model: films.director
   pk: 6
   fields:
     name: James Cameron
+    slug: ''
+    birth_year: null
+- model: films.director
+  pk: 7
+  fields:
+    name: David Ondříček
+    slug: '1'
     birth_year: null
