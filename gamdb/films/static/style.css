@@ -1,0 +1,47 @@
+.menu {
+    padding-right: 0;
+}
+.menu li {
+   display: inline; 
+}
+
+.menu a {
+    color: black;
+    background-color: lightblue;
+    padding: 5px 10px;
+    margin: 5px 10px 5px 0;
+    text-decoration: none;
+}
+
+.menu a.active {
+    background-color: cyan;
+}
+.menu a:hover {
+    background-color: lightcyan;
+}
+
+
+
+
+h1{
+    padding-top: 50px;
+    color: black;
+    text-align: center;
+  
+}
+
+body {
+    background-color: lightblue;
+    font-family: verdana;
+
+  }
+html{
+    background-color: lightblue;
+}
+
+h2{
+    padding-top: 10;
+    color:black;
+    text-align: left;
+  
+}
