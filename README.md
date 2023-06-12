@@ -1,6 +1,14 @@
 # Webová aplikace vytvořena v rámci předmětu webových aplikací
 
 
+
+## Spusť enviroment
+
+```git bash
+python -m venv venv
+```
+
+
 ## Spusť enviroment
 
 ```git bash
@@ -13,19 +21,39 @@ source ./venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
+
+## Spusť server
+
+```Bash
+
+cd ./gamdb
+```
+
 ## Spusť server
 
 ```Bash
 python manage.py runserver
 ```
 
-## Vytvoř fixtures
+## Vytvoř databázi
 
 ```Bash
-python manage.py dumpdata <app_model_name> --format yaml > fixtures/<name>.yaml
+py -Xutf8 manage.py makemigrations
 ```
-## Naloaduj fixtures
+```Bash
+py manage.py migrate
+```
+
+## Naplň databázi
 
 ```Bash
-python manage.py loaddata fixtures/<name>.yaml --app <app_model_name>
+py -Xutf8 manage.py loaddata --format yaml ./fixtures/*.yaml
+```
+
+
+
+## Naplň databázi
+
+```Bash
+py manage.py runserver
 ```
