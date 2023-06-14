@@ -22,20 +22,16 @@ pip install -r requirements.txt
 ```
 
 
-## Spusť server
+## Běž do GAMDB
 
 ```Bash
 
 cd ./gamdb
 ```
 
-## Spusť server
 
-```Bash
-python manage.py runserver
-```
 
-## Vytvoř databázi
+## Vytvoř migrace
 
 ```Bash
 py -Xutf8 manage.py makemigrations
@@ -52,7 +48,7 @@ py -Xutf8 manage.py loaddata --format yaml ./fixtures/*.yaml
 
 
 
-## Naplň databázi
+## Spusť server
 
 ```Bash
 py manage.py runserver
