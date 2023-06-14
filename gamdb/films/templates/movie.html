@@ -1,14 +1,44 @@
 {% extends 'main.html' %}
 
+
+
+
+
+
 {% block title %}
     {{movie.name}} | {{ block.super }}
 {% endblock %}
 
 {% block content %}
-<h1>{{movie.name}}</h1>
-<h2>{{movie.avg_rating}}</h2>
-<img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap">
+
+<div class="wrapper">
+    
+    <div class="box box1">
+<img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://place-hold.it/180x100/{% endif %}" class="imgresponsive" alt="Responsive image">
+<p class="carousel-caption text-over-img">{{movie.name}}</p>
+</div>
+</div>
+
+
+
+{% for a in movie.actor.all %}
+    <a class="btn {% if a.name == actor %}btn-primary{% else %}btn-outline-secondary{% endif %}" href="{% url 'actor' a.id %}">{{ a.name }}</a>
+{% endfor %}
+<p></p>
+{% for g in movie.genres.all %}
+
+    <a class="btn {% if g.name == genre %}btn-primary{% else %}btn-outline-secondary{% endif %}" href="/filmy/?genre={{ g.name }}">{{ g.name }}</a>
+
+{% endfor %}
+
+
+
+
+
+
 <p>{{ movie.description|safe }}</p>
+
+
 
 <div class="my-2">
     <p class="text-end">
@@ -18,7 +48,7 @@
             data-bs-toggle="collapse"
             data-bs-target="#addComment"
         >
-            Přidat komentář
+            Přidej komentář
         </button>
     </p>
 
