@@ -9,6 +9,7 @@ class Movie(models.Model):
     description = models.TextField(blank=True)
     director = models.ForeignKey('Director', blank=True, null=True, on_delete=models.SET_NULL)
     genres = models.ManyToManyField('Genre', blank=True, null=True)
+    actor = models.ManyToManyField('Actor', blank=True, null=True)
 
     def __str__(self):
         return f"{self.name} ({self.year})"
@@ -17,6 +18,13 @@ class Movie(models.Model):
         return ", ".join([i.name for i in self.genres.all()])
         # out = ""
         # for i in self.genres.all():
+        #     out += f"{i.name}, "
+        # return out
+
+    def actors_display(self):
+        return ", ".join([i.name for i in self.actors.all()])
+        # out = ""
+        # for i in self.actors.all():
         #     out += f"{i.name}, "
         # return out
 
