@@ -5,8 +5,17 @@
 {% endblock %}
 
 {% block content %}
-<h1>{{actor.name}}</h1>
-<h2>{{actor.birth_year}}</h2>
-<img src="{% if actor.photo_url %}{{actor.photo_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap">
+<div class="wrapper">
+    
+    <div class="box box1">
+<img src="{% if actor.photo_url %}{{actor.photo_url}}{% else %}https://place-hold.it/180x100/{% endif %}" class="imgresponsive" alt="Responsive image">
+<p class="carousel-caption text-over-img">{{actor.name}}</p>
+</div>
+</div>
+<br>
+<p>Rok narození: {{actor.birth_year}}</p>
+
 <p>{{ actor.description|safe }}</p>
+
+
 {% endblock content %}
