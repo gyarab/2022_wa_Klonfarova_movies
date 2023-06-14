@@ -68,13 +68,30 @@ h2{
     padding-top: 0mm;
     padding-left: 0mm;
     padding-right: 0%;
-    text-align: center
+    text-align: center;
 }
 
-.text-over-img {
+bily {
     text-align: center;
-    font-size: 100px;
+    color: antiquewhite;
     
     }
     
+    .wrapper {
+        position: relative;
+        text-align: center;
+        
+      }
+      
+
+      
+      /* Centered text */
+      .centered {
+        position: absolute;
+        font-size: xx-large;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
 
