@@ -61,8 +61,13 @@ def movie(request, id):
     return render(request, 'movie.html', context)
 
 def actors(request):
+    actors_queryset = Actor.objects.all()
+    search = request.GET.get('search')
+    if search:
+        actors_queryset = actors_queryset.filter(Q(name__icontains=search)|Q(description__icontains=search)) 
     context = {
-        "actors": Actor.objects.all()
+        "actors": actors_queryset,
+        "search": search,
     }
     return render(request, 'actors.html', context)
 
