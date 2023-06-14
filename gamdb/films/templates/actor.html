@@ -5,13 +5,22 @@
 {% endblock %}
 
 {% block content %}
+
 <div class="wrapper">
     
     <div class="box box1">
 <img src="{% if actor.photo_url %}{{actor.photo_url}}{% else %}https://place-hold.it/180x100/{% endif %}" class="imgresponsive" alt="Responsive image">
-<p class="carousel-caption text-over-img">{{actor.name}}</p>
+<div class="centered">{{actor.name}}</div>
+
 </div>
 </div>
+
+    
+
+
+
+
+
 <br>
 <p>Rok narození: {{actor.birth_year}}</p>
 
