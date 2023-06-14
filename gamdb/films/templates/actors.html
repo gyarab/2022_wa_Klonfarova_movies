@@ -7,6 +7,15 @@
 
 {% block content %}
 <h1>Herci</h1>
+<div class="row">
+    <form method="get" action="./">
+    <div class="input-group mb-3">
+        <input type="text" name="search" value="{{ search|default:"" }}" class="form-control" placeholder="..." aria-label="Hledat" aria-describedby="button-addon2">
+        <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Hledat</button>
+    </div>
+    </form>
+</div>
+
 <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-2">
     {% for actor in actors %}
     <div class="col">
@@ -17,7 +26,7 @@
                 <p class="card-text ">{{ actor.description|truncatewords_html:10|safe }}</p>
             </div>
             <div class="card-footer text-end">
-                <a href="{% url 'actor' actor.id %}" class="btn btn-primary">Detail</a>
+                <a href="{% url 'actor' actor.id %}" class="stretched-link btn btn-primary">Detail</a>
             </div>
         </div>
     </div>
