@@ -36,3 +36,203 @@
       získala cenu pro Televizní objev roku 2009. Absolventka pražské konzervatoře
       je v současné době v angažmá v Městském divadle Mladá Boleslav, kde vytvořila
       například titulní roli v slavném Shakespearově dramatu Romeo a Julie.
+- model: films.actor
+  pk: 4
+  fields:
+    name: Jiří Macháček
+    birth_year: 1966
+    slug: '1'
+    photo_url: https://image.pmgstatic.com/cache/resized/w663/files/images/film/video/preview/164/533/164533787_39b9cd.jpg
+    description: "Jiří Macháček, český zpívající herec a hrající zpěvák, se narodil
+      6. července 1966 v Litoměřicích a žije v Praze. Studoval Právnickou fakultu
+      na Karlově Univerzitě a zároveň Ježkovu konzervatoř. Věnuje se převážně herectví.
+      Vystupoval v několika divadlech (Na Zábradlí, Sklep atd.) a zahrál si v mnoha
+      filmech. Za film Samotáři (2000), ve kterém se objevil v roli věčně zhuleného
+      Jakuba získal Českého lva za nejlepší mužskou vedlejší roli. V roce 2004 byl
+      opět nominován na Českého lva a to za hlavní mužskou roli ve filmu Horem pádem,
+      kde si zahrál fotbalového fanouška Františka, který vychovává dítě tmavé pleti.
+      Dále si zahrál např. ve filmech Jedna ruka netleská (2003),Mazaný Filip (2003)
+      nebo Návrat Idiota (1999). K filmu Jedna ruka netleská napsal společně s Davidem
+      Ondříčkem scénář.\r\n\r\nKromě herectví se Jiří Macháček věnuje své hudební
+      skupině MIG 21, ve které působí jako zpěvák a textař. S touto skupinou již vydal
+      tři alba. V roce 2005 si zahrál roli řezníka v celovečerní filmové grotesce
+      Skřítek (rež. Tomáš Vorel) pro který vytvořil s MIG 21 hudbu.\r\n\r\nByl jedním
+      ze zakladatelů a moderátorů (vystupoval jako Doktor Vinetú) mystifikačního,
+      dnes již neexistujiciho Radia Limonadový Joe. Herectví se krátce věnoval na
+      European Film Academy v Dánsku."
+- model: films.actor
+  pk: 5
+  fields:
+    name: Bolek Polívka
+    birth_year: 1949
+    slug: '1'
+    photo_url: https://kviff.tv/media/films/2022/07/09/56NF035_MeetTheFilmmakers_BolekPolivka_2022-07-08b.jpg?v=1667305726
+    description: Boleslav Polívka (* 31. července 1949 Vizovice) je český herec, mim,
+      dramatik a scenárista. Vystudoval brněnskou JAMU a od roku 1972 působil v divadle
+      Husa na provázku. V roce 1993 si v Brně založil vlastní Divadlo Bolka Polívky.
+      Ztvárnil řadu divadelních, filmových a televizních rolí.
+- model: films.actor
+  pk: 6
+  fields:
+    name: Ondřej Vetchý
+    birth_year: 1962
+    slug: '1'
+    photo_url: https://vlm-production-dam-public.fra1.cdn.digitaloceanspaces.com/1366x768/0a4/0a40e207-5d64-48e2-8cc6-95ee2f310db3.webp
+    description: "Ondřej Vetchý, člen České filmové a televizní akademie, vystudoval
+      Pražskou konzervatoř (1984), tři roky hrál v Činoherním studiu v Ústí nad Labem,
+      v letech 1987–89 pak působil\r\nv divadle E. F. Buriana a od roku 1989 je členem
+      pražského Činoherního klubu. Na plátně debutoval v roce 1981 epizodní rolí v
+      dětském filmu Neříkej mi majore. Na začátku své kariéry ztvárňoval většinou
+      mravně narušené vyděděnce na okraji společnosti. Byl jím například pacient výchovného
+      ústavu v dramatu Zámek Nekonečno (1983), šikovný zloděj z Lásky z pasáže (1984)
+      nebo popový zpěvák Míša ve smutné komedii Prodavač humoru (1984).\r\n\r\nVýborný
+      výkon podal v pohádce S čerty nejsou žerty (1985). Na první hlavní roli si musel
+      Ondřej počkat až do roku 1988, kdy ho režisér Miroslav Zábranský oslovil se
+      svým debutem – filmem Dům pro dva (1988). V příběhu o dvou rozdílných bratrech
+      ztělesnil dalšího z lehkomyslných vagabundů, spoléhajících se na svou roztomilou
+      drzost a image upovídaného svůdce. Za svůj strhující výkon v komplikované tragické
+      roli byl oceněný Evropskou filmovou cenou Félix a vzbudil jím pozornost nejenom
+      u diváků a kritiků, ale také u filmových a televizních režisérů. Díky tomu se
+      strhla lavina Vetchého vynikajících výkonů v hlavních rolích.\r\n\r\nTragický
+      hrdina v Letu asfaltového holuba (1991) slovenského režiséra Vlada Balca, mladý
+      Emil ve Weissově snímku Marty a já (1990), exkluzivní role v anglickém filmu
+      s Anthonym Hopkinsem Proces (1992) nebo namyšlený princ Velemír v Kouzelném
+      měšci (1996). To všechno byly snímky, kde předvedl svou univerzálnost a jedinečný,
+      vysoce nadstandardní herecký projev.\r\n\r\nNe všechny jeho postavy ale byly
+      negativní, temné a dramatické, občas se zhostil i otevřených a pozitivních nadšenců,
+      kteří ve svém okolí vynikali optimismem, odvahou a horlivou činorodostí. A právě
+      tito hrdinové se zřejmě stali tím nejkrásnějším, čím se zapsal do povědomí diváků.
+      Díky své citlivosti, charismatu a velké fyzické energii totiž dokázal tyto postavy
+      posunout směrem k ironickému a sebeparodickému nadhledu, například vojáka Kefalína
+      z komedie Černí baroni (1991), Bajniše Zisoviče z pozdějšího debutu režiséra
+      Dostála Golet v údolí (1995) nebo konečně v roli energického otce, který kvůli
+      společenským tlakům propadne do hluboké deprese (Báječná léta pod psa, 1997).\r\n\r\nNejvíc
+      si ale Ondřej nepochybně cení spolupráce s tandemem Jan a Zdeněk Svěrákovi.
+      Ti ho obsadili do role řidiče tramvaje už ve svém debutu Obecná škola (1990),
+      aby mu potom poskytli jednu z nejsympatičtějších postav v oscarovém Koljovi
+      (1996) – byl jí hrobník Brož a Ondřej se díky této roli představil divákům na
+      celém světě. Jan Svěrák ho obsadil také do hlavní role Františka Slámy v Tmavomodrém
+      světě (2001) a i díky pěti nominacím na Českého lva (Golet v údolí, Kolja, Báječná
+      léta pod psa, Tmavomodrý svět, Vendeta) se stal jednou z nejvýraznějších osobností
+      současné české herecké scény."
+- model: films.actor
+  pk: 7
+  fields:
+    name: Robin Williams
+    birth_year: 1951
+    slug: '1'
+    photo_url: https://image.pmgstatic.com/cache/resized/w468/files/images/film/photos/163/190/163190449_2f51a2.jpg
+    description: Robin McLaurin Williams (21. července 1951 Chicago, Illinois – 11.
+      srpna 2014 Paradise Cay, Kalifornie) byl americký herec, komik a zpěvák, držitel
+      Oscara, čtyř Zlatých glóbů, čtyř cen Grammy, dvou cen amerických scenáristů
+      a ceny Cecila B. DeMilla. Je považován za jednoho z největších komiků všech
+      dob.
+- model: films.actor
+  pk: 8
+  fields:
+    name: Tereza Ramba
+    birth_year: 1989
+    slug: '1'
+    photo_url: https://image.pmgstatic.com/cache/resized/w663/files/images/film/video/preview/166/071/166071950_5faf88.jpg
+    description: "V dětství tancovala v dětském souboru Valášek a objevila se také
+      ve videoklipu Filipa Renče k písni Medvídek od skupiny Lucie.\r\n\r\nOdmalička
+      toužila být baletkou, ale jak už to tak bývá, osud tomu chtěl jinak. V roce
+      2005 se zúčastnila konkurzu na film RAFŤÁCI (2006), kde si ji všiml režisér
+      Karel Janák a vybral si ji pro postavu drsné vodačky Radky. Pod vedením téhož
+      režiséra se objevila i v menší roli ve snímku RO(C)K PODVRAŤÁKŮ (2006). V tomto
+      roce se objeví v českých kinech dokonce hned ve třech filmech. V komedii SVATBA
+      NA BITEVNÍM POLI, kde ztvárnila jednu ze starostových dcer. Ve snímku Bohdana
+      Slámy VENKOVSKÝ UČITEL, jako přítelkyně filmového syna Zuzany Bydžovské a v
+      do třetice ji můžeme vidět v poetické komedii BOBULE, kde si zahraje po boku
+      Kryštofa Hádka.\r\n\r\n„O tom, že budu herečka, jsem dřív neuvažovala, ale odmalička
+      mě hrozně bavilo vystupovat před lidmi.“\r\n\r\nV budoucnu by se měla objevit
+      v nové řadě seriálu MÍSTO V ŽIVOTĚ a v připravované pohádce Milana Cieslara.
+      Z článků bulvárních novin by se zdálo, že si vybírá vskutku originální role,
+      neboť v komedii RAFŤÁCI zaujala hlavně erotickou scénou na toaletě, ve filmu
+      RO(C)K PODVRAŤÁKŮ ji pro změnu připoutali k lednici na limonádu a i v souvislosti
+      s její rolí ve snímku BOBULE noviny píší především o milostné scéně s hlavním
+      hrdinou. Ať už je to hříčka osudu či úmysl, mají se filmový fanoušci a ctitelé
+      této krásné herečky v budoucnu jistě na co těšit. Nezbývá než ji v její úspěšně
+      započaté kariéře držet pěsti."
+- model: films.actor
+  pk: 9
+  fields:
+    name: Tomáš holý
+    birth_year: 1968
+    slug: '1'
+    photo_url: https://d11-a.sdn.cz/d_11/c_img_QK_r/1vRc.png?fl=res,1280,720,1,%7Cjpg,60,,1
+    description: Tomáš Holý (17. března 1968 Praha – 8. března 1990 Polevsko) byl
+      český dětský herec. Byl nejznámější českou dětskou filmovou hvězdou své doby.
+      Na filmovém festivalu v Monte-Carlu v roce 1979 jej porota nazvala nejlepším
+      dětským hercem od dob Shirley Temple Blackové.
+- model: films.actor
+  pk: 10
+  fields:
+    name: Július Satinský
+    birth_year: 1941
+    slug: '1'
+    photo_url: https://www.krajskelisty.cz/images/textiky/Satinsky_mlady.jpg
+    description: "Július Satinský nebyl jenom herec a komik, který společně vystupoval
+      se svým kolegou a kamarádem Milanem Lasicou a uměl mluvit i výborně česky nebo
+      maďarsky. Byl také autorem literatury pro děti a dospělé, dramatik, prozaik
+      či fejetonista. Narodil se v Bratislavě 20. srpna 1941 a prožil zde prakticky
+      celé dětství. Jeho herecký talent se projevoval již v dětství a roku 1958 vyhrál
+      v recitační soutěži Hviezdoslavov Kubín. Vystudoval Střední pedagogickou školu,
+      ovšem jako učitel poté nikdy nepracoval. Po maturitě chtěl studovat herectví
+      ale nebyl přijat a tak se nakonec dostal na Vysokou školu múzických umění, kde
+      v letech 1962 – 66 studoval dramaturgii. Od roku 1964 působil tři roky jako
+      dramaturg v Československé televizi v Bratislavě.\r\n\r\nJiž od roku 1959 vystupovali
+      jako komici s Milanem Lasicou v autorských relacích. Seznámili se ale již mnohem
+      dříve při školním divadelním představení. Na konci 60. let účinkovali v bratislavské
+      Tatra revue a později v Divadle na korze. V letech 1971 - 72 vystupovali společně
+      v kabaretu Večerní Brno, jelikož na Slovensku měli zákaz umělecké činnosti.Poté
+      se vrátili zpět a od roku 1972 společně vystupovali v opeře Nové scény v Bratislavě.
+      Po šesti letech oba přestoupili do činohry v Nové scéně. V roce 1982 odešli
+      účinkovat do nově otevřeného Studia S, které později přejmenovali na Studio
+      L+S. Zde Július zůstal až do konce svého života. Populární dvojice zde 20. prosince
+      1999 oslavila 40 let svého vystupování.\r\n\r\nJejich scénky se vždy skládaly
+      z několika částí (scénky - písničky - skeče - improvizované vstupy - atd.).
+      Mnoho knih pro dospělé napsali společně, v knižní podobě měly scénky jiný řád.
+      Z jejich společné tvorby jmenuji mj. “Nečekanie na Godota“ (1967), “Soireé“
+      (1968), “Lasica, Satinský a vy“ (1970), divadelní hru s názvem “Náš přítel René“
+      (1979) nebo “Trialog“ (1991), který sepsali společně s Miroslavem Horníčkem.
+      Velmi známý byl jejich kabaretní program “Ktosi je za dverami“, ve kterém glosovali
+      na aktuální témata. Z televize a filmu jsou známi např. z televizní komedie
+      GIGLIHO ÁRIA (1966), z dramatu SLADKÉ HRY MINULÉHO LÉTA (1969) z rodinného filmu
+      NEKONEČNÁ, NEVYSTUPOVAŤ (1979) ale především z komedie SRDEČNÝ POZDRAV ZE ZEMĚKOULE
+      (1982), kde ztvárnili postavy ufonů vyslaných na Zem. Pan Satinský se u tohoto
+      filmu podílel i jako spoluautor na dialozích.\r\n\r\nZ ostatních rolí,kde nehrál
+      společně s M. Lasicou hlavní role nebo hrál jen sám jsou nejznámější mj. filmy
+      BULDOCI A TŘEŠNĚ (1981), S TEBOU MĚ BAVÍ SVĚT (1982) režisérky M. Poledňákové,
+      kde ztvárnil roli doktora Alberta Horáka, jako Král Pikola v pohádkové komedii
+      TŘI VETERÁNI (1983), pilot Štefan ve filmu Jiřího Menzela VESNIČKO MÁ STŘEDISKOVÁ
+      (1985) a nebo král Valentýn v televizní pohádce RUMPLCIMPRCAMPR (1997). Jeho
+      poslední filmová role byla v komediálním dramatu KRUTÉ RADOSTI (2002). Velmi
+      známou roli ztvárnil v seriálu režiséra Vorlíčka KŘEČEK V NOČNÍ KOŠILI (1987)
+      a znám je společným vystupováním v televizním pořadu HOVORY H.\r\n\r\nV roce
+      1989 dostal titul “Zasloužilý umělec“ a začíná se věnovat publicistice. Měl
+      své pravidelné rubriky v několika slovenských novinách a časopisech. Ve svých
+      fejetonech vzbuzoval ve čtenářovi aby se stal samostatnou osobností a využíval
+      při tom prvky slovní hry a nevynechával i prózy či festy. Pro děti mj. napsal
+      knihu pohádek “Rozprávky uja Klobásu“ (1996). Je autorem námětu grotesky VE
+      VLAKU (1969) a nadaboval principála z pohádky PERINBABA (1985). Společně s M.
+      Lasicou a hudebním skladatelem Jaroslavem Filipem vydali tři desky “Bolo nás
+      jedenásť“ (1981), “S vetrom opreteky“ (1982) a “My“ (1987). Z divadelních rolí
+      si zahrál mj. v inscenacích REVIZOR od Nikolaje Gogola, MARNÁ SNAHA LÁSKY od
+      W. Shakespeara, v Moliérově dílu TARTUFFE nebo hlavní postavu Stalina ve hře
+      STALIN, kterou napsal Gaston Salvatore.\r\n\r\nJúlius Satinský byl dvakrát ženatý.
+      Jeho první ženou byla tanečnice ze slovenské Lúčnice Olga Lajdová. Ta ale tragicky
+      zemřela při koupání na Panenských ostrovech. Byli spolu 20 let. Július byl z
+      její smrti těžce otřesen a chtěl se upít k smrti, protože jeho život ztratil
+      jiskru. Později ale poznal doktorku z protialkoholního Vieru Satinskou (*1955)
+      a s tou se také v roce 1985 oženil. Narodily se jim dvě děti, dcera Lucie a
+      syn Ján. Pan Satinský zemřel v Bratislavě 29. prosince roku 2002, kdy podlehl
+      následkům rakoviny tlustého střeva.\r\n\r\nV roce 2003 byl vyznamenán In memoriam,
+      slovenskou Medailí Za zásluhy. Slovenská astronomická společnost po něm pojmenovala
+      planetku 15946 objevenou 8. ledna 1999 na observatoři Modra-Piesky. Kromě planetky
+      má ale i svoji sochu v bratislavské Dunajské ulici, kterou odhalil jeho dlouholetý
+      kolega a přítel Milan Lasica 24. září 2006. Socha je 3,5 metrů vysoká a je u
+      ní umístěna tabule se Satinského výrokem \"Na naši ulici je svoboda\". Za zmínku
+      stojí uvést, že se tento všestranný člověk, který si žil bohémským způsobem
+      života, za svůj život pětkrát stěhoval, ale pokaždé se jeho domov nacházel právě
+      v Dunajské ulici..."
