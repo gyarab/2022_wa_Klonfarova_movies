@@ -157,7 +157,7 @@
 - model: films.actor
   pk: 9
   fields:
-    name: Tomáš holý
+    name: Tomáš Holý
     birth_year: 1968
     slug: '1'
     photo_url: https://d11-a.sdn.cz/d_11/c_img_QK_r/1vRc.png?fl=res,1280,720,1,%7Cjpg,60,,1
