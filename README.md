@@ -1,5 +1,11 @@
 # Webová aplikace vytvořena v rámci předmětu webových aplikací
-
+- upravené CSS - vlastní barvy apod.
+- do detailu filmu přidáno prolinkování na herce
+- kartičky jsou celé klikatelné
+- Příjemný a srovnaný design (linie, rytmus).
+- Responsivní design (různý počet sloupců dle šířky zařízení).
+- Použití obrázků (může být externích) k ilustraci Filmů/Herců/Režisérů
+- Filtrování Filmů podle žánrů
 
 
 ## Spusť enviroment
